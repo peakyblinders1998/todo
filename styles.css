@@ -1,0 +1,27 @@
+body {
+  background-color: #352f5b;
+}
+.container {
+  max-width: 400px;
+  background-color: #fff;
+}
+
+input[type="text"],
+input[type="text"]:focus {
+  color: #fff;
+  border: none;
+  background: rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+}
+.todos li {
+  background: #fff;
+}
+.delete {
+  padding: 5px;
+  cursor: pointer;
+}
+.form-control {
+  position: relative;
+  top: 0;
+  bottom: 5px;
+}
